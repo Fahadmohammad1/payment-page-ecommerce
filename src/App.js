@@ -3,7 +3,7 @@ import Payment from "./Components/Payment/Payment";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Payment />
     </div>
   );
