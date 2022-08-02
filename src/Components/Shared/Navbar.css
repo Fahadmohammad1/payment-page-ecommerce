@@ -1,0 +1,11 @@
+nav {
+  border-bottom: 1px solid gray;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-title {
+  color: goldenrod;
+}
