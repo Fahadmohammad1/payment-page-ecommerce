@@ -4,7 +4,7 @@ import "./ShippingInfo.css";
 const ShippingInfo = () => {
   return (
     <section className="shipping-info">
-      <div>
+      <div className="login-signin-btn">
         <button className="login-btn">LOG IN</button>
         <button className="signin-btn">SIGN IN</button>
       </div>

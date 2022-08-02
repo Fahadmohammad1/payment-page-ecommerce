@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTruck } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
+import PaymentMethod from "../PaymentMethod/PaymentMethod";
 import ShippingInfo from "../ShippingInfo.js/ShippingInfo";
 import "./Payment.css";
 
@@ -20,6 +21,7 @@ const Payment = () => {
       </div>
       <div className="main-container">
         <ShippingInfo />
+        <PaymentMethod />
       </div>
     </section>
   );
