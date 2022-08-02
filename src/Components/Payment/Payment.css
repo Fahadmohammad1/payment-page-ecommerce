@@ -8,12 +8,16 @@
 }
 .cart-icon {
   border-radius: 50%;
-  padding: 5px;
-  border: 1px solid rgb(58, 221, 131);
+  padding: 8px;
+  border: 1px solid rgb(93, 212, 147);
 }
 .truck-icon {
   border-radius: 50%;
-  background-color: rgb(58, 221, 131);
+  background-color: rgb(93, 212, 147);
   margin-left: auto;
-  padding: 5px;
+  padding: 8px;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

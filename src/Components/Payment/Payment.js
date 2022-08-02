@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTruck } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
+import ShippingInfo from "../ShippingInfo.js/ShippingInfo";
 import "./Payment.css";
 
 const Payment = () => {
@@ -16,6 +17,9 @@ const Payment = () => {
             <FaTruck />
           </h4>
         </div>
+      </div>
+      <div className="main-container">
+        <ShippingInfo />
       </div>
     </section>
   );

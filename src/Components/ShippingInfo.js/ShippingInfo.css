@@ -1,0 +1,36 @@
+.shipping-info {
+  padding-right: 50px;
+}
+.login-btn {
+  padding: 10px 22px 10px;
+  border-radius: 20px;
+  background-color: rgb(93, 212, 147);
+  border: 1px solid rgb(93, 212, 147);
+}
+.signin-btn {
+  padding: 10px 22px 10px;
+  border-radius: 20px;
+  margin-left: 10px;
+  border: 1px solid gray;
+}
+
+.left-input {
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 15px 30px 15px;
+  margin-bottom: 15px;
+}
+.right-input {
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 15px 30px 15px;
+  margin-left: 20px;
+}
+.country-select {
+  border: 1px solid gray;
+  border-radius: 25px;
+  padding: 15px 30px 15px;
+  margin-left: 20px;
+  color: gray;
+  width: 43%;
+}
