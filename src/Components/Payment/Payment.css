@@ -16,8 +16,13 @@
   background-color: rgb(93, 212, 147);
   margin-left: auto;
   padding: 8px;
+  color: whitesmoke;
 }
 .main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.payment-cart-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }

@@ -21,7 +21,9 @@ const Payment = () => {
       </div>
       <div className="main-container">
         <ShippingInfo />
-        <PaymentMethod />
+        <div className="payment-cart-container">
+          <PaymentMethod />
+        </div>
       </div>
     </section>
   );

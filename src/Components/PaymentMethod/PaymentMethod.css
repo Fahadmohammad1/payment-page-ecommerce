@@ -1,9 +1,34 @@
+.payment-btn-container {
+  gap: 20px;
+}
 .payment-btn {
   width: 90px;
   padding: 4px 5px 4px;
   border-radius: 25px;
   border: 1px solid gray;
+  margin-bottom: 10px;
 }
 .paypal-logo {
   width: 50px;
+}
+.visa-logo {
+  width: 50px;
+  padding: 5px 5px 4px;
+}
+.mastercard-logo {
+  width: 30px;
+  margin-top: 1px;
+}
+.maestro-logo {
+  width: 45px;
+}
+.discover-logo {
+  width: 55px;
+  padding: 8px;
+}
+.ideal-logo {
+  width: 45px;
+}
+.visa-discover-btn {
+  margin: 0px 7px 0px 7px;
 }
