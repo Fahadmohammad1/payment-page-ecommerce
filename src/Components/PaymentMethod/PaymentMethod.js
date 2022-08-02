@@ -1,10 +1,11 @@
 import React from "react";
+import DeliveryMethod from "../DeliveryMethod/DeliveryMethod";
 import "./PaymentMethod.css";
 
 const PaymentMethod = () => {
   return (
     <section>
-      <h4>Payment Method</h4>
+      <h5>Payment Method</h5>
       <div className="payment-btn-container">
         <button className="payment-btn">
           <img
@@ -44,10 +45,13 @@ const PaymentMethod = () => {
         <button className="payment-btn">
           <img
             className="ideal-logo"
-            src="https://banner2.cleanpng.com/20180601/ihg/kisspng-ideal-e-commerce-payment-system-bank-logo-hot-5b1110d1c66724.1981524615278450738127.jpg"
+            src="https://climbingtherighttree.com/wp-content/uploads/2017/12/ideal-logos.png"
             alt=""
           />
         </button>
+      </div>
+      <div>
+        <DeliveryMethod />
       </div>
     </section>
   );

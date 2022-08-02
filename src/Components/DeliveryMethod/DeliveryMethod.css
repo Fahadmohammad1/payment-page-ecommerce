@@ -1,0 +1,29 @@
+.delivery-btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.delivery-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid gray;
+}
+.inpost-logo {
+  width: 35px;
+  margin-right: 20px;
+}
+.dpd-logo {
+  width: 35px;
+  margin-right: 20px;
+}
+.dhl-logo {
+  width: 35px;
+  margin-right: 20px;
+}
+.fedex-logo {
+  width: 35px;
+  margin-right: 20px;
+}

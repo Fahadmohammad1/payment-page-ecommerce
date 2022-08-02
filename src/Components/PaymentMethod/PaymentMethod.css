@@ -8,6 +8,9 @@
   border: 1px solid gray;
   margin-bottom: 10px;
 }
+.payment-btn:hover {
+  border: 1px solid goldenrod;
+}
 .paypal-logo {
   width: 50px;
 }
@@ -27,7 +30,8 @@
   padding: 8px;
 }
 .ideal-logo {
-  width: 45px;
+  width: 55px;
+  padding: 0px;
 }
 .visa-discover-btn {
   margin: 0px 7px 0px 7px;
