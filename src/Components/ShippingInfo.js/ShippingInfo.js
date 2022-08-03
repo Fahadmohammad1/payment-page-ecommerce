@@ -1,12 +1,16 @@
 import React from "react";
 import "./ShippingInfo.css";
-
+import { Link } from "react-router-dom";
 const ShippingInfo = () => {
   return (
     <section className="shipping-info">
       <div className="login-signin-btn">
-        <button className="login-btn">LOG IN</button>
-        <button className="signin-btn">SIGN IN</button>
+        <Link to="/login">
+          <button className="login-btn">LOG IN</button>
+        </Link>
+        <Link to="/signup">
+          <button className="signin-btn">SIGN IN</button>
+        </Link>
       </div>
       <div>
         <h4>Shipping Information</h4>

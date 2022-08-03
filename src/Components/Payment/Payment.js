@@ -3,6 +3,7 @@ import { FaTruck } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 import Cart from "../Cart/Cart";
 import PaymentMethod from "../PaymentMethod/PaymentMethod";
+import ProceedAndBack from "../ProceedAndBack/ProceedAndBack";
 import ShippingInfo from "../ShippingInfo.js/ShippingInfo";
 import "./Payment.css";
 
@@ -28,6 +29,7 @@ const Payment = () => {
           <Cart />
         </div>
       </div>
+      <ProceedAndBack />
     </section>
   );
 };
