@@ -1,5 +1,6 @@
 import "./App.css";
 import Payment from "./Components/Payment/Payment";
+import ProceedAndBack from "./Components/ProceedAndBack/ProceedAndBack";
 import Navbar from "./Components/Shared/Navbar";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Payment />
+      <ProceedAndBack />
     </div>
   );
 }

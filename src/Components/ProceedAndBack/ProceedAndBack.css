@@ -1,0 +1,23 @@
+.proceed-back-div {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back-arrow {
+  display: flex;
+  gap: 20px;
+}
+
+.continue-proceed-btns {
+  padding: 13px;
+  border-radius: 25px;
+}
+.continue-btn {
+  border: 1px solid grey;
+  margin-right: 10px;
+}
+.proceed-btn {
+  background-color: rgb(93, 212, 147);
+  border: none;
+}

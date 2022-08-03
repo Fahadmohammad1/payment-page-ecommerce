@@ -1,5 +1,6 @@
 import React from "react";
 import "./Cart.css";
+import { FaTruck } from "react-icons/fa";
 
 const Cart = () => {
   return (
@@ -41,6 +42,16 @@ const Cart = () => {
       <div className="total-cost-div">
         <span className="total-cost">Total Cost</span>
         <span>$159.98</span>
+      </div>
+      <div className="free-shipping">
+        <span>
+          <FaTruck />
+        </span>
+        <span className="free-shipping-text">
+          You are <span>$30.02</span> away
+          <br />
+          from free shipping
+        </span>
       </div>
     </section>
   );

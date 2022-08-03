@@ -31,9 +31,21 @@
   display: flex;
   justify-content: space-around;
   background-color: rgb(223, 223, 223);
-  padding: 10px;
+  padding: 13px;
   border-radius: 25px;
 }
 .total-cost {
+  color: grey;
+}
+
+.free-shipping {
+  width: 70%;
+  margin-top: 25px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.free-shipping-text {
   color: grey;
 }
