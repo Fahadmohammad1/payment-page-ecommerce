@@ -4,7 +4,7 @@ import "./PaymentMethod.css";
 
 const PaymentMethod = () => {
   return (
-    <section>
+    <section className="pay-delivery-container">
       <h5>Payment Method</h5>
       <div className="payment-btn-container">
         <button className="payment-btn">
