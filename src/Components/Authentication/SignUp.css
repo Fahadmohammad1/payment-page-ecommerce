@@ -1,4 +1,4 @@
-.login-section {
+.signup-section {
   width: max-content;
   padding: 20px;
   margin: auto;
@@ -9,7 +9,7 @@
   background: #e0e0e0;
   box-shadow: -26px 26px 52px #bebebe, 26px -26px 52px #ffffff;
 }
-.login-title {
+.signup-title {
   text-align: center;
   color: goldenrod;
 }
@@ -31,9 +31,9 @@ input {
   justify-content: center;
   margin-bottom: 5px;
 }
-.signup-text {
+.login-text {
   text-align: center;
 }
-.signup-link {
+.login-link {
   color: royalblue;
 }
